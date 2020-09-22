@@ -217,7 +217,9 @@ body {
     margin: 0 auto;
     width: 100%;
   }
+  .social-box{
+    text-align: center;
   .attribution {
     font-size: 1.6rem;
   }
-}
+  }
