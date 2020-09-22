@@ -102,6 +102,15 @@ body {
   color: #fff;
   text-align: right;
 }
+.fa-facebook:hover {
+  color: #4267b2;
+}
+.fa-twitter:hover {
+  color: #1DA1F2;
+}
+.fa-instagram:hover {
+  color: #E1306C;
+}
 .icon {
   margin-right: 10px;
   cursor: pointer;
@@ -110,11 +119,6 @@ body {
 }
 .icon:hover {
   transform: translateY(-0.3rem);
-  box-shadow: 0 0 1rem 0.5rem rgba(0, 0, 0, 0.2);
-}
-.icon:active {
-  transform: translateY(-0.1rem);
-  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
 }
 
 /* *============= FOOTER =========== */
@@ -122,16 +126,18 @@ body {
 .attribution {
   font-size: 11px;
   text-align: center;
-  padding: 3rem;
   font-size: 3rem;
   font-family: "poppins";
+  color: #fff;
+  margin-top: 2rem;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  text-decoration: none;
   transition: all 0.2s;
+  color: hotpink;
 }
 .attribution a:hover {
-  color: orange;
+  color: rgb(214, 102, 158);
 }
 
 /* *=========== ANIMATION ========== */
@@ -213,6 +219,5 @@ body {
   }
   .attribution {
     font-size: 1.6rem;
-    padding: 1rem;
   }
 }
