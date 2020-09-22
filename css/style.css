@@ -200,6 +200,13 @@ body {
 @media only screen and (max-width: 768px) {
   .container {
     padding: 3rem;
+    
+  
+  background-image: url("../images/bg-mobile.svg");
+  background-position: center;
+  background-size: cover;
+
+
   }
   .header {
     flex-direction: column;
